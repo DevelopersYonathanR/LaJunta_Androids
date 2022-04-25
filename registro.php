@@ -34,6 +34,7 @@
                 <button>Registrar</button>
                
             </form>
+            
         </div>
     </div>
 
