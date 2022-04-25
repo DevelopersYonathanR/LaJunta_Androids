@@ -1,0 +1,347 @@
+/**
+ * 
+ */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+/*
+Barra de Navegacion
+*/
+
+header {
+    width: 100%;
+    height: 65px;
+    background: white;
+    position: fixed;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.titulo {
+    float: left;
+    line-height: 65px;
+    color: #212126;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menu {
+    float: right;
+    line-height: 65 px;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0 -100px;
+}
+
+.menu a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: #212126;
+    transition: all 500ms ease;
+}
+
+.menu a:hover {
+    background: #228C67;
+    color: white;
+}
+
+.menu .submenu {
+    background: white;
+    display: none;
+}
+
+.menu .submenu li a {
+    line-height: 50px;
+}
+
+.menu ul li a:hover+ul,
+.menu .submenu:hover {
+    display: block;
+    margin: 0 0px;
+}
+
+
+/*
+Barra de Navegacion
+*/
+
+
+/*
+Fondo
+*/
+
+.fondo {
+    background-image: url("../images/cabaña1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+/*
+Fondo
+*/
+
+
+/*
+subtitulo
+*/
+
+.subtitulo {
+    position: absolute;
+    margin: 15% 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.subtitulo-desc {
+    position: absolute;
+    margin: 20% 40px;
+    color: white;
+    text-align: justify left;
+    font-size: 22px;
+}
+
+.btn-info {
+    position: absolute;
+    margin: 25% 40px;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-info a {
+    text-decoration: none;
+    color: white
+}
+
+.btn-info:hover {
+    padding: 13px 45px;
+    transition: all .2s;
+    background-color: #228C67;
+    border: none;
+}
+
+
+/*
+subtitulo
+*/
+
+
+/*
+pantalla-info
+*/
+
+#info {
+    background-color: #212126;
+    color: white;
+    font-size: 30px;
+    height: 100vh;
+}
+
+div p {
+    text-align: justify;
+    margin: 0px 80px;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.btn-volver {
+    position: absolute;
+    margin: 0 45%;
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.btn-volver a {
+    text-decoration: none;
+    color: white
+}
+
+.btn-volver:hover {
+    padding: 13px 45px;
+    transition: all .2s;
+    background-color: #228C67;
+    border: none;
+}
+
+
+/*
+pantalla-info
+*/
+
+
+/*login yona  */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+section .login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    opacity: 0.9;
+}
+
+.titulo2 {
+    text-align: center;
+    line-height: 65px;
+    color: #212126;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section .login-page .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: -80px;
+}
+
+.form input {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: orange;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #918e00;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+/*******Registro*******/
+
+section .registro-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+    opacity: 0.9;
+}
+
+.titulo2 {
+    text-align: center;
+    line-height: 65px;
+    color: #212126;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+section .registro-page .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    margin-top: -80px;
+}
+
+.form input {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: orange;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #918e00;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
