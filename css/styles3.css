@@ -18,19 +18,8 @@ body {
 .container_form {
     background-color: #0a1e35;
     border-radius: 15px;
-    padding: 50px;
+    padding: 70px;
     opacity: 0.9;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    margin-left: 110px;
-}
-
-h1 {
-    text-align: center;
-    color: white;
 }
 
 h2 {
@@ -40,10 +29,10 @@ h2 {
 
 input {
     display: block;
-    width: 300px;
+    width: 320px;
     height: 40px;
     margin-bottom: 20px;
-    padding: 0 15px;
+    padding: 0 55px;
     font-size: 18px;
     outline: none;
     border: none;
@@ -51,32 +40,6 @@ input {
     color: white;
     /* la line blanca input*/
     border-bottom: 2px solid white;
-}
-
-.check {
-    width: 15px;
-    height: 15px;
-    display: inline;
-    color: white;
-}
-
-label {
-    color: white;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    margin-left: 45px;
-}
-
-.registro {
-    color: white;
-    text-decoration: none;
-    margin-left: 120px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 30px;
 }
 
 .btn-registro {
@@ -90,19 +53,7 @@ a {
     border: none;
     border-bottom: 2px solid #0b5a1c;
     text-align: center;
-    margin-left: 96px;
-}
-
-a:hover,
-.registro:hover {
-    color: #b8b8b8;
-}
-
-label:hover {
-    color: #b8b8b8;
-}
-
-.btn-registro:active {
-    background-color: aquamarine;
-    width: 145px;
+    width: 320px;
+    height: 40px;
+    margin-left: 30px;
 }

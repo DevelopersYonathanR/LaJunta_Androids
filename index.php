@@ -5,10 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
-
 <body id="home">
     <header class="header">
         <div class="container">
@@ -21,7 +20,7 @@
                     <li>
                         <a href="#">Mi Cuenta</a>
                         <ul class="submenu">
-                            <li><a href="login.php">Iniciar sesion</a></li>
+                            <li><a href="#">Iniciar sesion</a></li>
                             <li><a href="#">Crear cuenta</a></li>
                         </ul>
                     </li>
@@ -29,7 +28,6 @@
             </nav>
         </div>
     </header>
-
     <section class="fondo">
         <div class="subtitulo">
             Turismo Rural La Junta
@@ -44,21 +42,16 @@
         </div>
     </section>
 </body>
-
 <section id="info">
     <div class="info-complete">
         <p>
             Con ubicación en La regio de los ríos, Comuna de Lago Ranco,
-
             entre sus servicios se encuentra El arriendo de cabañas, Quincho,
-
             tinajas de relajación, ecoturismo, turismo aventura, hospedaje.
         </p>
     </div>
-
     <div class="btn-volver">
         <a href="#home">=</a>
     </div>
 </section>
-
 </html>
