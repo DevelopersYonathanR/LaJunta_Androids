@@ -344,3 +344,22 @@ section .registro-page .form {
     color: #4CAF50;
     text-decoration: none;
 }
+
+
+/*Modo reposivo*/
+
+@media (max-width: 600px) {
+    .titulo {
+        float: left;
+        line-height: 65px;
+        color: #212126;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .fondo {
+        background-image: url("../images/cabaña1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40vh;
+    }
+}

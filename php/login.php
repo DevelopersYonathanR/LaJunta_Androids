@@ -1,17 +1,4 @@
-<?php
 
-include "../models/Conexion.php";
-error_reporting(0);
-session_start();
-
-if(isset($_SESSION["username"])){
-    header("Location: ../php/login.php");
-}
-
-if(isset($_))
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
